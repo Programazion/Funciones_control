@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    console.log("TEST")
+
+    console.log("EJECUCIÓN FOR")    
+    let conteo =1;
+    for (i=1    ;i<10;i++)
+    {
+        console.log("El valor de la variable i=", i);
+        conteo++;// conteo= conteo + 1
+    }
+        console.log("Numero de ciclos del bucle =>", conteo) //fin del for
+
+    console.log("EJECUCIÓN WHILE")
+    let a =4
+    while (a<3){
+        console.log("El valor de la variable a=", a);
+        a++;  
+    }//fin del while
+     
+    console.log("EJECUCIÓN DO WHILE") //Se ejecuta al menos una vez
+    a =4
+    do {
+        console.log("El valor de la variable a=", a);
+        a++;
+    }while (a<3); //fin del do while
+    console.log("EJECUCIÓN FUNCIONES")
+    function ejecutarOperacion(){
+        console.log("ejecute operación!!!")
+    }
+
+    ejecutarOperacion();
+
+    const ejecutarOperacionOtraForma =()=>console.log("Ejecutar otra forma de función")
+
+    ejecutarOperacionOtraForma(); //fin de la función
+
+    console.log("EJECUCIÓN DE CONDOCIONALES")
+    a=0
+    if(a<10){
+    console.log("ingrese a la condición")
+    }
+    
+    (a<10 && console.log("ingrese a la condición diferente"))
+
+
+    a=11
+    if(a<10){
+    console.log("ingrese a la condición if")
+    }else{
+        console.log("ingrese a la condición else")
+    }
+
+    if(a<10){
+    console.log("ingrese a la condición if A")
+    }else if (a<9   ){
+        console.log("ingrese a la condición else if")
+    }
+
+    if(a<10){
+    console.log("ingrese a la condición if B")
+    }
+    if (a<9){
+        console.log("ingrese a la condición if C")
+    }
+    
+    
+
+    </script>
+
+</html>
